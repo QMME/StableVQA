@@ -4,4 +4,4 @@
 
 ## Training
 
-  python new_train.py -o ./options/stable.yml
+    python new_train.py -o ./options/stable.yml
