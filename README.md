@@ -14,7 +14,9 @@
 
 下载Swin Transformer预训练权重[swin_tiny_patch4_window7_224.pth](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth)
 
-默认路径为./pretrained_weights/*.pth
+下载StableVQA预训练权重[swin_tiny_patch4_window7_224.pth](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth)
+
+默认路径为`./pretrained_weights/*.pth`
 
 ## Training
 
