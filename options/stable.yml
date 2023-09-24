@@ -75,7 +75,7 @@ optimizer:
     backbone_lr_mult: !!float 1e-1
     wd: 0.05
 
-load_path: ./pretrained_weights/swin_tiny_patch244_window877_kinetics400_1k.pth
+load_path: ./pretrained_weights/swin_tiny_patch4_window7_224.pth
 test_load_path: ./pretrained_weights/FAST-VQA-M-VS_val_n_dev_v1.0.pth
     
         
