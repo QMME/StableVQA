@@ -16,6 +16,10 @@ Download Swin Transformer pre-trained weight [swin_tiny_patch4_window7_224.pth](
 
 The default path for these pre-trained weights is `./pretrained_weights/*.pth`.
 
+## Environment
+
+The project is built on python 3.7. Run `pip install -r requirements.txt` to install the dependencies. 
+
 ## Training
 
     python new_train.py -o ./options/stable.yml
