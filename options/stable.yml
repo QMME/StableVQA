@@ -16,7 +16,7 @@ data:
         args:
             phase: train
             anno_file: ./examplar_data_labels/VSdataset/train_list.txt
-            data_prefix: /root/autodl-tmp/VSdataset
+            data_prefix: /your/data/path/VSdataset
             sample_types:
                 resize:
                     size_h: 224
@@ -31,7 +31,7 @@ data:
         args:
             phase: test
             anno_file: ./examplar_data_labels/VSdataset/val_list.txt
-            data_prefix: /root/autodl-tmp/VSdataset
+            data_prefix: /your/data/path/VSdataset
             sample_types:
                 resize:
                     size_h: 224
@@ -46,7 +46,7 @@ data:
         args:
             phase: test
             anno_file: ./examplar_data_labels/VSdataset/test_list.txt
-            data_prefix: /root/autodl-tmp/VSdataset
+            data_prefix: /your/data/path/VSdataset
             sample_types:
                 resize:
                     size_h: 224
