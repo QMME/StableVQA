@@ -57,7 +57,7 @@ data:
                     num_clips: 4
         
 model:
-    type: DiViDeAddEvaluator
+    type: Stablev2Evaluator
     args:
         backbone:
             resize:
