@@ -14,7 +14,7 @@ Download StripFormer pre-trained weight [Stripformer_realblur_J.pth](https://dri
 
 Download Swin Transformer pre-trained weight [swin_tiny_patch4_window7_224.pth](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth)
 
-You can download the pre-trained weight of StableVQA [here](https://drive.google.com/file/d/1EsImQp-5MGVZ8HHlKh2dYrFR_oLXld5S/view?usp=drive_link).
+You can download the pre-trained weight of StableVQA [here](https://drive.google.com/file/d/1V3PA99ShWQlJP7o-BOsHtXXmqPYuJFZU/view?usp=sharing).
 
 The default path for these pre-trained weights is `./pretrained_weights/*.pth`.
 
