@@ -1,4 +1,4 @@
-name: FAST-VQA-M-VS
+name: Stable-VQA-M-VS
 num_epochs: 30
 l_num_epochs: 0
 warmup_epochs: 2.5
@@ -76,7 +76,7 @@ optimizer:
     wd: 0.05
 
 load_path: ./pretrained_weights/swin_tiny_patch4_window7_224.pth
-test_load_path: ./pretrained_weights/FAST-VQA-M-VS_val_n_dev_v1.0.pth
+test_load_path: ./pretrained_weights/Stable-VQA-M-VS_val_n_dev_v1.0.pth
     
         
 
