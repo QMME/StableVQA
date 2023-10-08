@@ -193,10 +193,8 @@ class Stablev2Evaluator(nn.Module):
                     img_f = getattr(self, key.split("_")[0]+"_backbone")(x)
                     img_feat = img_f.reshape(n, d*img_f.size(1))
 
-                    img_feat = torch.flatten(self.avg_pool3d(img_f),1)
                     optical_feat = self.motion_analyzer(torch.stack(optical_flows, 2))
                 
-
                     blur_feats = self.get_blur_vec(self.deblur_net, tmp, self.blur)
                     total_feat = []
                     blur_feats = torch.flatten(self.avg_pool2d(blur_feats), 1)
