@@ -6,6 +6,9 @@ Code for paper ["StableVQA: A Deep No-Reference Quality Assessment Model for Vid
   <img src="model.png" />
 </p>
 
+We propose StableVQA for accurate prediction of video stability. Flow Feature: After sampling N frames from the video clip, the optical flows between adjacent frames are estimated and are taken as input to a 3D CNN to implicitly analyze the camera movement.
+Semantic feature: We use a Swin-T for the extraction of semantic features. Blur Feature: We analyze the motion blur effect within frames. Features from three dimensions are fused and regressed to give the final prediction stability score.
+
 ## Database
 
 Download the [StableDB](https://drive.google.com/file/d/1XO1tkmSNg-yPcfQ0WSnpvB3mu0bILZQA/view?usp=drive_link), including 1952 unstable videos with corresponding MOSs.
