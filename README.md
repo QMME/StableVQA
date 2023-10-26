@@ -1,6 +1,10 @@
 # StableVQA
 
-Code for paper ["StableVQA: A Deep No-Reference Quality Assessment Model for Video Stability"](https://arxiv.org/abs/2308.04904)(Accepted by ACM MM'23)
+Code for paper ["StableVQA: A Deep No-Reference Quality Assessment Model for Video Stability"](https://arxiv.org/abs/2308.04904) (Accepted by ACM MM'23)
+
+<p align="center">
+  <img src="model.png" />
+</p>
 
 ## Database
 
