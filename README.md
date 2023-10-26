@@ -1,6 +1,6 @@
 # StableVQA
 
-Code for paper ["StableVQA: A Deep No-Reference Quality Assessment Model for Video Stability"](https://arxiv.org/abs/2308.04904)
+Code for paper ["StableVQA: A Deep No-Reference Quality Assessment Model for Video Stability"](https://arxiv.org/abs/2308.04904)(Accepted by ACM MM'23)
 
 ## Database
 
@@ -29,3 +29,13 @@ The project is built on python 3.7. Run `pip install -r requirements.txt` to ins
 ## Testing
 
     python new_test.py -o ./options/stable.yml
+
+## Citation
+
+    If you use any part of this code, please kindly cite
+    @article{kou2023stablevqa,
+      title={StableVQA: A Deep No-Reference Quality Assessment Model for Video Stability},
+      author={Kou, Tengchuan and Liu, Xiaohong and Sun, Wei and Jia, Jun and Min, Xiongkuo and Zhai, Guangtao and Liu, Ning},
+      journal={arXiv preprint arXiv:2308.04904},
+      year={2023}
+    }
