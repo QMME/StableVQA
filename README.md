@@ -40,10 +40,11 @@ The project is built on python 3.7. Run `pip install -r requirements.txt` to ins
 ## Citation
 ```bibtex
     If you use any part of this code, please kindly cite
-    @article{kou2023stablevqa,
-      title={StableVQA: A Deep No-Reference Quality Assessment Model for Video Stability},
-      author={Kou, Tengchuan and Liu, Xiaohong and Sun, Wei and Jia, Jun and Min, Xiongkuo and Zhai, Guangtao and Liu, Ning},
-      journal={arXiv preprint arXiv:2308.04904},
-      year={2023}
-    }
+    @inproceedings{kou2023stablevqa,
+  title={Stablevqa: A deep no-reference quality assessment model for video stability},
+  author={Kou, Tengchuan and Liu, Xiaohong and Sun, Wei and Jia, Jun and Min, Xiongkuo and Zhai, Guangtao and Liu, Ning},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={1066--1076},
+  year={2023}
+}
 ```
